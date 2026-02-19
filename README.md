@@ -1,46 +1,107 @@
-# Getting Started with Create React App and Redux
+# 🚗 Tesla Website Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A responsive Tesla landing page clone built with React and styled-components.
 
-## Available Scripts
+This project recreates the Tesla homepage layout with full-screen sections, smooth animations, and reusable UI components.
 
-In the project directory, you can run:
+> ⚠️ This is a frontend-only project created for learning and portfolio purposes.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tesla Clone is a modern React-based UI project that mimics the official Tesla landing page design.
 
-### `npm test`
+The application demonstrates:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Component-based architecture
+- Styled-components usage
+- Animation effects
+- Responsive layout
+- Clean UI structure
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Full-screen section layout
+- Dynamic background images via props
+- Smooth fade animations
+- Reusable Section component
+- Navigation header
+- Responsive design
+- Styled-components for styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- JavaScript
+- styled-components
+- react-reveal
+- CSS Flexbox
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src/
+├── app/
+│ └── store.js
+├── component/
+│ ├── Header.js
+│ ├── Home.js
+│ ├── Section.js
+├── App.js
+├── index.js
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `Section` component is reusable and receives props such as:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- title
+- description
+- leftBtnText
+- rightBtnText
+- backgroundImg
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/K1Saeid/tesla-clone.git
+
+2️⃣ Navigate to project folder
+cd tesla-clone
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run development server
+npm start
+
+App runs at:
+http://localhost:3000
+
+## 📸 Screenshots
+
+[Screenshot 1](Screenshots/Tesla1.png)
+[Screenshot 2](Screenshots/Tesla2.png)
+
+
+---
+
+## 👨‍💻 Author
+
+Saeid Abdollahi
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+
